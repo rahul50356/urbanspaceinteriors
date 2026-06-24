@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Process | Urban Verve Interiors</title>
+  <meta name="description" content="A transparent, meticulous, and flawlessly orchestrated interior design journey from conceptualization to reality.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-ring" id="cursor-ring"></div>
+  <div class="cursor-dot" id="cursor-dot"></div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container headerContent">
+      <a href="index.html" class="logo">Urban Verve <span>Interiors</span></a>
+      <nav class="nav">
+        <ul class="navList">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="estimate.html">Estimate</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="ctaContainer">
+        <a href="tel:+917483858944" class="callBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Call Now
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="mobileMenuOverlay" id="mobile-menu">
+        <div class="mobileMenuContent">
+          <ul class="mobileNavList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="estimate.html">Estimate</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="tel:+917483858944" class="mobileCallBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Call Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="processPage">
+      <header class="pageHeader">
+        <div class="container headerContent">
+          <h1>
+            <div class="split-line"><span class="split-line-inner page-title-line">The Anatomy</span></div>
+            <div class="split-line"><span class="split-line-inner page-title-line">Of Perfection.</span></div>
+          </h1>
+          <p class="page-subtitle">A transparent, meticulous, and flawlessly orchestrated journey from conceptualization to reality.</p>
+        </div>
+      </header>
+
+      <section class="section-padding container">
+        <div class="timeline">
+          
+          <div class="step">
+            <div class="stepIcon">01</div>
+            <div class="stepContent">
+              <h3>Discovery & Vision</h3>
+              <p>We begin with an exclusive consultation to profoundly understand your lifestyle, aesthetic preferences, and the legacy you wish your space to embody.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="stepIcon">02</div>
+            <div class="stepContent">
+              <h3>Architectural Concept</h3>
+              <p>Our master designers engineer a bespoke conceptual blueprint, integrating spatial psychology with elite materials to form your initial presentation.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="stepIcon">03</div>
+            <div class="stepContent">
+              <h3>Design Development</h3>
+              <p>Concepts are refined into exact 3D renderings and material boards. Every texture, fixture, and hue is meticulously selected for unparalleled harmony.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="stepIcon">04</div>
+            <div class="stepContent">
+              <h3>Procurement & Fabrication</h3>
+              <p>We source rare, premium-grade materials from our global network of artisans, ensuring absolute exclusivity and uncompromising quality.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="stepIcon">05</div>
+            <div class="stepContent">
+              <h3>Masterful Execution</h3>
+              <p>Our elite project managers orchestrate the on-site execution with surgical precision, adhering strictly to timeline and design intent.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="stepIcon">06</div>
+            <div class="stepContent">
+              <h3>White-Glove Handover</h3>
+              <p>The final reveal. Your space is flawlessly cleaned, styled, and presented to you—a fully realized sanctuary of luxury.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footerGrid">
+      <div class="footerCol">
+        <h3 class="logo">Urban Verve <span>Interiors</span></h3>
+        <p>Transforming spaces into beautiful homes with complete interior design solutions for modern living.</p>
+      </div>
+      <div class="footerCol">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="estimate.html">Estimate</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footerCol">
+        <h4>Services</h4>
+        <ul>
+          <li>Residential Interiors</li>
+          <li>Modular Kitchens</li>
+          <li>Wardrobe Designs</li>
+          <li>Living Room Interiors</li>
+          <li>Space Planning</li>
+        </ul>
+      </div>
+      <div class="footerCol">
+        <h4>Contact Us</h4>
+        <p>426, 2nd Stage, Karnashree Layout, Bangalore, Karnataka. 560049.</p>
+        <p>Email: hello@urbanverve.in</p>
+        <p>Phone: +91 74838 58944</p>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <p>&copy; 2026 Urban Verve Interiors. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/917483858944" target="_blank" rel="noopener noreferrer" class="whatsappBtn" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.004-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+    </svg>
+  </a>
+</body>
+</html>
